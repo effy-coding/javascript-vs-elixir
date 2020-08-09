@@ -44,7 +44,6 @@ Enum.all?([11, 13, 15], fn(x) -> x > 10 end)
 
 ```elixir
 Enum.any?(["Apple", "Microsoft"], fn(x) -> String.length(x) > 6 end)
-Enum.any?(["Apple", "Microsoft"], &(String.length(&1) > 6))
 ```
 
 ### Each
