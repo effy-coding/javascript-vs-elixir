@@ -2,7 +2,7 @@
 
 > 📌 Unordered random list of transpiles for JavaScript and Elixir
 
-## Map
+### Map
 
 ```js
 [1, 2, 3].map(x => x * 2) // -> [ 2, 4, 6 ]
@@ -12,7 +12,7 @@
 Enum.map([1, 2, 3], fn(x) -> x * 2 end)
 ```
 
-## Reduce
+### Reduce
 
 ```js
 ["A", "B", "C"].reduce((x, acc) => x + acc) // -> "ABC"
@@ -22,7 +22,7 @@ Enum.map([1, 2, 3], fn(x) -> x * 2 end)
 Enum.reduce(["A", "B", "C"], fn(x, acc) -> acc <> x end)
 ```
 
-## Every
+### Every
 
 ```js
 [11, 13, 15].every(x => x > 10) // -> true
@@ -32,7 +32,7 @@ Enum.reduce(["A", "B", "C"], fn(x, acc) -> acc <> x end)
 Enum.all?([11, 13, 15], fn(x) -> x > 10 end)
 ```
 
-## Some
+### Some
 
 ```js
 ["Apple", "Microsoft"].some(x => x.length > 6) // -> true
@@ -43,7 +43,7 @@ Enum.any?(["Apple", "Microsoft"], fn(x) -> String.length(x) > 6 end)
 Enum.any?(["Apple", "Microsoft"], &(String.length(&1) > 6))
 ```
 
-## Each
+### Each
 
 ```js
 ["Fish", "Fisherman", "Phising"].forEach(x => console.log(x)) // -> Fish ...
@@ -53,7 +53,7 @@ Enum.any?(["Apple", "Microsoft"], &(String.length(&1) > 6))
 Enum.each(["Fish", "Fisherman", "Phising"], fn(x) -> IO.puts x end)
 ```
 
-## Sort
+### Sort
 
 ```js
 [2, 2, 4, 6].sort((a, b) => b - a) // -> [ 6, 4, 2, 2 ]
@@ -66,7 +66,7 @@ Enum.sort([2, 2, 4, 6], fn(a, b) -> a > b end)
 Enum.sort([2, 2, 4, 6], :desc)
 ```
 
-## Unique by
+### Unique by
 
 ```js
 [...new Set([1, 1, 2, 2, 3])] // -> [ 1, 2, 3 ]
