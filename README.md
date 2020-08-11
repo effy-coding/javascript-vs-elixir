@@ -1,5 +1,3 @@
-# js-to-elixir
-
 > 📌 Unordered random list of transpiles for JavaScript and Elixir
 
 <div style="text-align:center;">
