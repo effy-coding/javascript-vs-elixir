@@ -101,3 +101,13 @@ Don't want to write this code in JavaScript :(
 ```elixir
 Enum.count([1, 2])
 ```
+
+### List concat
+
+```js
+[...[1, 2], ...[3, 4]] // -> [ 1, 2, 3, 4 ]
+```
+
+```elixir
+[1, 2] ++ [3, 4]
+```
