@@ -91,3 +91,13 @@ Enum.uniq_by([a: {:tea, 2}, b: {:tea, 2}, c: {:coffee, 1}], fn {_, y} -> y end)
 Don't want to write this code in JavaScript :(
 
 </details>
+
+### Size of list
+
+```js
+[1, 2].length // -> 2
+```
+
+```elixir
+Enum.count([1, 2])
+```
