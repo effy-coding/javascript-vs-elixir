@@ -17,7 +17,7 @@ Enum.map([1, 2, 3], fn(x) -> x * 2 end)
 ### Reduce
 
 ```js
-["A", "B", "C"].reduce((x, acc) => x + acc) // -> "ABC"
+["A", "B", "C"].reduce((x, acc) => x + acc) // -> 'ABC'
 ```
 
 ```elixir
@@ -110,4 +110,14 @@ Enum.count([1, 2])
 
 ```elixir
 [1, 2] ++ [3, 4]
+```
+
+### Split by Regex
+
+```js
+"100_000_000".split(/_/) // -> [ '100', '000', '000' ]
+```
+
+```elixir
+Regex.split(~r/_/, "100_000_000")
 ```
