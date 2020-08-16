@@ -24,7 +24,7 @@
 
 [List concat](#list-concat)
 
-[Split by Regex](#split-by-regex)
+[Split by regex](#split-by-regex)
 
 [String interpolation](#string-interpolation)
 
@@ -137,7 +137,7 @@ Enum.count([1, 2])
 [1, 2] ++ [3, 4]
 ```
 
-### Split by Regex
+### Split by regex
 
 ```js
 "100_000_000".split(/_/) // -> [ '100', '000', '000' ]
