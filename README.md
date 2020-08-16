@@ -20,6 +20,15 @@
 
 [Unique by](#unique-by)
 
+[Size of list](#size-of-list)
+
+[List concat](#list-concat)
+
+[Split by Regex](#split-by-regex)
+
+[String interpolation](#string-interpolation)
+
+
 ### Map
 
 ```js
