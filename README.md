@@ -4,6 +4,22 @@
     <img src="js-to-elixir.png" alt="JS TO ELIXIR" style="width: 50%;" />
 </div>
 
+## Table of contents
+
+[Map](#map)
+
+[Reduce](#reduce)
+
+[Every](#every)
+
+[Some](#some)
+
+[Each](#each)
+
+[Sort](#sort)
+
+[Unique by](#unique-by)
+
 ### Map
 
 ```js
