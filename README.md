@@ -8,6 +8,8 @@
 
 [Map](#map)
 
+[Filter](#filter)
+
 [Reduce](#reduce)
 
 [Every](#every)
@@ -37,6 +39,16 @@
 
 ```elixir
 Enum.map([1, 2, 3], fn(x) -> x * 2 end)
+```
+
+### Filter
+
+```js
+[1, 2, 3, 4].filter(x => x % 2) // -> [ 1, 3 ]
+```
+
+```elixir
+Enum.filter([1, 2, 3, 4], fn(x) -> rem(x, 2) != 0 end)
 ```
 
 ### Reduce
