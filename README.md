@@ -121,3 +121,13 @@ Enum.count([1, 2])
 ```elixir
 Regex.split(~r/_/, "100_000_000")
 ```
+
+### String interpolation
+
+```js
+`It is ${1 + 2} of the clock` // -> 'It is 3 of the clock'
+```
+
+```elixir
+"It is #{1 + 2} of the clock"
+```
