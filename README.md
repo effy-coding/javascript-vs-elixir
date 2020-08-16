@@ -1,7 +1,7 @@
 > 📌 Unordered random list of transpiles for JavaScript and Elixir
 
 <div style="text-align:center;">
-    <img src="js-to-elixir.png" alt="JS TO ELIXIR" style="width: 50%;" />
+    <img src="image.png" alt="JS TO ELIXIR" style="width: 50%;" />
 </div>
 
 ## Table of contents
