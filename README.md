@@ -28,6 +28,8 @@
 
 [Split by regex](#split-by-regex)
 
+[String replace all](#string-replace-all)
+
 [String interpolation](#string-interpolation)
 
 
@@ -157,6 +159,16 @@ Enum.count([1, 2])
 
 ```elixir
 Regex.split(~r/_/, "100_000_000")
+```
+
+### String replace all
+
+```js
+"Helloooo".replace(/o/g, "a") // -> 'Hellaaaa'
+```
+
+```elixir
+String.replace("Helloooo", "o", "a")
 ```
 
 ### String interpolation
